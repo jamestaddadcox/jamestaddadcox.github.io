@@ -1,5 +1,6 @@
 <template>
   <div class="main">
+    <img id="splash" src="../assets/sn.jpg" alt="manipulated image">
     <div class="spacer"></div>
     <div id="writing" class="content">
       <WritingSection/>
@@ -30,6 +31,9 @@ export default {
 </script>
 
 <style>
+    #splash {
+      padding: 110px 0px;
+    }
     .spacer {
       height: 1000px;
     }

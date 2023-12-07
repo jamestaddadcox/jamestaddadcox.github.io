@@ -2,9 +2,9 @@
   <div>
     <div class="header">
       <p id="bio">
-          James Tadd Adcox is a writer and software developer living in Pittsburgh.
+          <span id="home" v-scroll-to="'#splash'">James Tadd Adcox</span> is a writer and software developer living in Pittsburgh.
       </p>
-      <div class="Menu">
+      <div class="menu">
           <button v-scroll-to="'#writing'">Writing</button> | <button v-scroll-to="'#code'">Code</button> | <button v-scroll-to="'#contact'">Contact</button>
       </div>
       <hr>
@@ -33,6 +33,9 @@ export default {
 }
 #bio {
   padding: 0px 20px;
+}
+#home {
+  cursor: pointer;
 }
 button {
   border: none;
