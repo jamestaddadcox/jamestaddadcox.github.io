@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-      <p class="Bio">
+      <p id="bio">
           James Tadd Adcox is a writer and software developer living in Pittsburgh.
       </p>
       <div class="Menu">
@@ -30,6 +30,9 @@ export default {
   width: 100%;
   top: 0;
   left: 0;
+}
+#bio {
+  padding: 0px 20px;
 }
 button {
   border: none;

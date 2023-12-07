@@ -2,7 +2,7 @@
   <div class="main">
     <div class="spacer"></div>
     <div id="writing" class="content">
-      Here are links to my writing
+      <WritingSection/>
     </div>
     <div class="spacer"></div>
     <div id="code" class="content">
@@ -20,9 +20,12 @@
 </template>
 
 <script>
+import WritingSection from './WritingSection.vue'
 
 export default {
-    
+    components: {
+      WritingSection
+    }
 }
 </script>
 
@@ -31,6 +34,7 @@ export default {
       height: 1000px;
     }
     .content {
-      padding: 150px 0px 0px;
+      padding: 100px 0px 0px;
+      text-align: left;
     }
 </style>
