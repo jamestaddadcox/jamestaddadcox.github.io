@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div id="main">
     <img id="splash" src="../assets/sn.jpg" alt="manipulated image">
     <div class="spacer"></div>
     <div id="writing" class="content">
@@ -15,7 +15,7 @@
     </div>
     <div class="spacer"></div>
     <div id="secret">
-      And here's a little secret, just for you
+      <p></p> 
     </div>
   </div>
 </template>

@@ -5,7 +5,7 @@
     </h1>
     <p v-for="book in books" :key="book.title">
         <span v-if="book.url !== ''">
-            <a :href="book.url" target="blank"><span class="title">{{book.title}}</span>, {{book.year}}</a>
+            <a :href="book.url" target="_blank"><span class="title">{{book.title}}</span>, {{book.year}}</a>
         </span>
         <span v-else>
             <span class="title">{{book.title}}</span>, {{book.year}}
@@ -17,7 +17,7 @@
     </h1>
     <p v-for="fiction in fictions" :key="fiction.title">
         <span v-if="fiction.url !== ''">
-            <a :href="fiction.url" target="blank">“{{fiction.title}},” <span class="title">{{fiction.publisher}}</span>, {{fiction.year}}</a>
+            <a :href="fiction.url" target="_blank">“{{fiction.title}},” <span class="title">{{fiction.publisher}}</span>, {{fiction.year}}</a>
         </span>
         <span v-else>
             “{{fiction.title}},” <span class="title">{{fiction.publisher}}</span>, {{fiction.year}}
@@ -28,7 +28,7 @@
     </h1>
     <p v-for="review in reviews" :key="review.title">
         <span v-if="review.url !== ''">
-            <a :href="review.url" target="blank"><span class ="title">{{review.title}}</span> by {{review.author}}, <span class="title">{{review.publisher}}</span>, {{review.year}}</a>
+            <a :href="review.url" target="_blank"><span class ="title">{{review.title}}</span> by {{review.author}}, <span class="title">{{review.publisher}}</span>, {{review.year}}</a>
         </span>
         <span v-else>
             <span class ="title">{{review.title}}</span> by {{review.author}}, <span class="title">{{review.publisher}}</span>, {{review.year}}

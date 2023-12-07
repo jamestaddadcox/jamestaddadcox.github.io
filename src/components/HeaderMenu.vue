@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="header">
+    <div id="header">
       <p id="bio">
-          <span id="home" v-scroll-to="'#splash'">James Tadd Adcox</span> is a writer and software developer living in Pittsburgh.
+          <span id="home" v-scroll-to="'#header'">James Tadd Adcox is a writer and software developer living in Pittsburgh.</span>
       </p>
       <div class="menu">
           <button v-scroll-to="'#writing'">Writing</button> | <button v-scroll-to="'#code'">Code</button> | <button v-scroll-to="'#contact'">Contact</button>
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style scoped>
-.header {
+#header {
   position: fixed;
   background-color: white;
   width: 100%;
@@ -32,7 +32,7 @@ export default {
   left: 0;
 }
 #bio {
-  padding: 0px 20px;
+  padding: 5px 20px;
 }
 #home {
   cursor: pointer;
