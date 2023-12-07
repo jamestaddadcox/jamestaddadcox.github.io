@@ -7,11 +7,11 @@
     </div>
     <div class="spacer"></div>
     <div id="code" class="content">
-      Here are some things I coded
+      <CodeSection/>
     </div>
     <div class="spacer"></div>
     <div id="contact" class="content">
-      Here's where I put my contact information
+      <ContactSection/>
     </div>
     <div class="spacer"></div>
     <div id="secret">
@@ -21,11 +21,15 @@
 </template>
 
 <script>
+import CodeSection from './CodeSection.vue'
+import ContactSection from './ContactSection.vue'
 import WritingSection from './WritingSection.vue'
 
 export default {
     components: {
-      WritingSection
+      WritingSection,
+      CodeSection,
+      ContactSection
     }
 }
 </script>
