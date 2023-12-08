@@ -50,9 +50,13 @@ export default {
         return {
             books: [
                 {title: 'Denmark: Variations', publisher: 'Hem Press', year: '2023', url: 'https://www.hempressbooks.com/shop/p/denmark-variations'},
+                {title: 'Five Essays', publisher: 'Ghost City Press', year: '2021, chapbook', url: 'https://ghostcitypress.com/2021-summer-series/five-essays'},
+                {title: 'Kircher Plates: or, Notes on the Beginning of a Science', publisher: 'Ghost City Press', year: '2020, chapbook', url: 'https://ghostcitypress.com/2020-summer-series/kircher-plates-or-notes-on-the-beginning-of-a-science'},
                 {title: 'Repetition', publisher: 'Cobalt Press', year: '2016', url: 'https://www.cobaltreview.com/product/adcox-repetition/'},
                 {title: 'Does Not Love', publisher: 'Curbside Splendor', year: '2014', url: 'https://www.amazon.com/Does-Love-James-Tadd-Adcox/dp/1940430232/'},
                 {title: 'Map of the System of Human Knowledge', publisher: 'Tiny Hardcore Press', year: '2012', url: 'https://www.amazon.com/Map-System-Human-Knowledge/dp/0998070165/'},
+            
+                // {title: '', publisher: '', year: '', url: ''},            
             ],
             fictions: [
                 {title: 'The Stage Name', publisher: 'X-R-A-Y', year: 'forthcoming', url: ''},
