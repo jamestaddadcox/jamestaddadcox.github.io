@@ -60,6 +60,7 @@ export default {
             ],
             fictions: [
                 {title: 'The Stage Name', publisher: 'X-R-A-Y', year: 'forthcoming', url: ''},
+                {title: 'Separation', publisher: 'The End', year: '2023', url: 'https://theendmagazine.net/'},
                 {title: 'A Memory', publisher: 'ergot.', year: '2023', url: 'https://www.ergot.press/authors/James_Tadd_Adcox/A_Memory'},
                 {title: 'The Darkness Retreat', publisher: 'Propagule', year: '2023', url: 'https://www.propagule.co/fiction/the-darkness-retreat'},
                 {title: 'Three Stories: Doubt, City of the Dead, The Distant Friend', publisher: '3:AM', year: '2023', url: 'https://www.3ammagazine.com/3am/three-stories-5/'},
