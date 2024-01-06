@@ -59,7 +59,7 @@ export default {
                 // {title: '', publisher: '', year: '', url: ''},            
             ],
             fictions: [
-                {title: 'The Stage Name', publisher: 'X-R-A-Y', year: 'forthcoming', url: ''},
+                {title: 'The Stage Name', publisher: 'X-R-A-Y', year: '2023', url: 'https://xraylitmag.com/the-stage-name-by-james-tadd-adcox/fiction/'},
                 {title: 'Separation', publisher: 'The End', year: '2023', url: 'https://theendmagazine.net/'},
                 {title: 'A Memory', publisher: 'ergot.', year: '2023', url: 'https://www.ergot.press/authors/James_Tadd_Adcox/A_Memory'},
                 {title: 'The Darkness Retreat', publisher: 'Propagule', year: '2023', url: 'https://www.propagule.co/fiction/the-darkness-retreat'},
