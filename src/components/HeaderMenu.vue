@@ -2,7 +2,7 @@
   <div>
     <div id="header">
       <p id="bio">
-          <span id="home" v-scroll-to="'#header'">James Tadd Adcox is a writer, editor, and software developer.</span>
+          <span id="home" v-scroll-to="'#header'">James Tadd Adcox is a writer and software developer.</span>
       </p>
       <div class="menu">
           <button v-scroll-to="'#writing'">Writing</button> | <button v-scroll-to="'#code'">Code</button> | <button v-scroll-to="'#contact'">Contact</button>
